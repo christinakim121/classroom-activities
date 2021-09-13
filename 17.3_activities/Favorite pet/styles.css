@@ -2,6 +2,43 @@ h1 {
   font-family: 'Urbanist', sans-serif;
 }
 
+nav {
+  background-color: lightgrey;
+  height: 50px;
+}
+
 h2 {
     font-family: 'Urbanist', sans-serif;
+}
+
+.menu-item {
+  display: inline-block;
+  width: 150px;
+  vertical-align: middle;
+  text-align: center;
+  height: 30px;
+  background-color: lightsteelblue;
+  color: white;
+  padding-top: 20px;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: thistle;
+  float: left;
+  height: 15000px;
+}
+
+.pet-name img {
+  width: 200px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.main-content {
+  width: 66%;
+  float: left;
+  padding: 2%;
 }
