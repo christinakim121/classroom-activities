@@ -18,10 +18,12 @@ $("#enter").on("click", function(){
     $(this).toggleClass("done");
     if ($(this).hasClass("done")) {
       $(this).find("div").removeClass("fa-times");
-      $(this).find("div").addClass("fa-check");
+      $(this).find("div").addClass("fa-paw");
     }
     else {
       $(this).find("div").addClass("fa-times");
     }
   });
+  
+
   
