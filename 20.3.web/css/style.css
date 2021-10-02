@@ -1,0 +1,73 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+#hero {
+    background-image: url(../css/images/hero.png);
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-item.active {
+    text-decoration: underline;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    flex-direction: column;
+    background-color: transparent;
+    color: white;
+
+}
+
+.jumbotron .display-4, .jumbotron .lead {
+    color: white;
+}
+
+.jumbotron span {
+    font-weight: 800;
+}
+
+.sectionheading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sectionheading span {
+    color: #FFA300;
+    display: block;
+    font-size: 20px;
+}
+
+.adventurecard .card {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.airplane {
+    background-image: url("../css/images/airplanebkg.png");
+}
+
+.adventure {
+    background-image: url("../css/images/hotelbkg.png");
+}
+
+.trip {
+    background-image: url("../css/images/tripbkg.png");
+}
+
+h3, .card-text {
+    color: white;
+}
